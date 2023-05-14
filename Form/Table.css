@@ -1,0 +1,256 @@
+.Student_Info_p1 {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'QuickSand', sans-serif;
+    color: #252a35
+}
+
+.Student_Info_container {
+    background-color: white;
+    margin: 20px 0px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+.Student_Info_Search {
+    text-indent: 0px;
+    padding: 13px 15px 12px 40px;
+    border-radius: 5px;
+    border: 1px solid #dddfe4;
+    width: 200px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #252a35;
+    transition: 0.3s;
+}
+
+.Student_Info_Search:focus {
+    outline: none;
+    box-shadow: rgb(105, 185, 110, 0.9) 0px 0px 0px 2px;
+    width: 250px;
+}
+
+.Student_Info_Search::placeholder {
+    color: #252a359c;
+}
+
+.S_Info_header {
+    padding: 30px 25px 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.table_p1 {
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: #345c18;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+/* .table_p1:hover{
+    background-color: #345c1814
+} */
+
+.table_p2 {
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    color: #111927;
+    letter-spacing: 0.5px;
+}
+
+.Menu_table {
+    box-shadow: rgba(99, 99, 99, 0.1) 0px 2px 8px 0px;
+    border: 1px solid #e9ecef;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.Account_Status_p1,
+.Account_Status_p2 {
+    background-Color: #e5f2db;
+    color: rgb(101, 147, 67);
+    width: 60px;
+    border-radius: 5px;
+    padding: 3px 5px;
+    font-size: 12px;
+    font-weight: bold;
+    margin: auto;
+}
+
+.Account_Status_p2 {
+    background-Color: #f2dcdcff;
+    color: #a33747ff;
+}
+
+.Dialog_title_p1 {
+    font-size: 21px;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    margin: 0px;
+    color: #252a35;
+}
+
+.Dialog_title_p2 {
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color: #5d616b;
+}
+
+.dialog_body {
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 20px 15px;
+    grid-template-areas:
+        "FirstName LastName"
+        "Email Email"
+        "Password Password"
+        "ExamStatus SHSTrack";
+}
+
+.Email {
+    grid-area: Email;
+}
+
+.Password {
+    grid-area: Password;
+}
+
+.ExamStatus {
+    grid-area: ExamStatus;
+}
+
+.LastName {
+    grid-area: LastName;
+}
+
+.SHSTrack {
+    grid-area: SHSTrack;
+}
+
+.FirstName {
+    grid-area: FirstName;
+}
+
+.dialog_body_input {
+    padding: 10px 0px;
+    text-indent: 10px;
+    /* background-color: #0096c7; */
+    border: 1px solid #e9ecefde;
+    border-radius: 7px;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.5px;
+    box-shadow: rgba(0, 0, 0, 0.01) 0px 3px 12px;
+}
+
+.dialog_body_input:disabled {
+    background-color: rgba(30, 136, 229, 0.021);
+}
+
+.dialog_body_p2 {
+    color: #5d616b;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 450;
+    margin-bottom: 5px;
+    letter-spacing: 0.5px;
+    min-width: 200px;
+}
+
+.dialog_body_p1 {
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    margin: 20px 0px;
+    color: rgba(37, 42, 53, 0.912);
+    display: flex;
+    gap: 2px;
+    align-items: center;
+    letter-spacing: 1px;
+    justify-content: space-between;
+}
+
+.dialog_body_div p{
+    font-size: 12px;
+    color: rgb(105, 114, 128);
+    font-weight: 500;
+    letter-spacing: 0.2px;
+    margin-bottom: 3px;
+}
+
+.dialog_body_alert{
+    background-color: #e5f2dbff;
+    padding: 3px 15px;
+    font-size: 12px;
+    color: #7bb255ff;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 4px 12px;
+}
+
+.chip-container{
+    padding: 0px 25px 20px;
+}
+
+.filter_p1{
+    font-family: 'Inter', sans-serif;
+    text-transform: none;
+    font-weight: 550;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+
+.Filter_header_p1, .Filter_header_p2{
+    font-family: 'QuickSand', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.Filter_header_p2{
+    font-size: 12px;
+    cursor: pointer;
+    color: #d90427dd;
+    letter-spacing: 0px;
+}
+
+.filter_p2{
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    color: #505161;
+}
+
+.filter_p3{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #697280;
+    letter-spacing: 0.5px ;
+    margin-bottom: 2px;
+}
+
+.filter_input{
+    padding: 10px 10px;
+    width: 80%;
+    margin: 5px ;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    border: 1px solid #DEE2E6;
+    border-radius: 5px;
+    color: #697280
+}
+
+.filter_input:focus{
+    outline: none;
+}

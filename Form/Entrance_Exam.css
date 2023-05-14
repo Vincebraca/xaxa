@@ -1,0 +1,261 @@
+.Add_Entrance_Exam {
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+    padding: 50px;
+    border: 1px solid #E9ECEF;
+    border-radius: 10px;
+}
+
+.A_EE_BreadCrumbs {
+    display: flex;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    gap: 10px;
+    color: #252a35ff;
+}
+
+.A_EE_Stepper {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.A_EE_S_Circle {
+    border-radius: 100px;
+    height: 35px;
+    width: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.A_EE_S_div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+.A_EE_tab1 {
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+    padding: 50px 0px;
+}
+
+.Tab_title{
+    font-size: 16px;
+    font-family: 'QuickSand', sans-serif;
+    color: #587f63ff;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.tab_p1 {
+    font-size: 26px;
+    font-family: 'QuickSand', sans-serif;
+    font-weight: bold;
+    color: #252a35ff;
+    margin-bottom: 10px;
+}
+
+.tab_p2 {
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    color: #505161ff;
+}
+
+.tab1_form, .tab2_form{
+    margin: 30px 0px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    color: #505161ff;
+}
+
+.tab1_form {
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr; 
+}
+
+.tab_input {
+    border: 1px solid #CED4DA;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    margin: 10px 0px;
+    letter-spacing: 0.5px;
+    color: #292d3dff;
+    padding: 10px;
+    width: 90%;
+    resize: none;
+}
+
+.tab_input:focus {
+    outline: none;
+}
+
+.tab_input::placeholder {
+    color: #6c757d97;
+}
+
+.tabs_button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tab1_button {
+    color: #6c757d;
+    display: flex;
+    gap: 5px;
+    font-size: 12px;
+    align-items: center;
+    border: 1px solid #ced4dac0;
+    background-color: #ced4da31;
+    width: max-content;
+    padding: 5px 7px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* .tabs{
+    width: 50%;
+} */
+
+.tabs_linear {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 2px;
+    justify-content: space-between;
+}
+
+.tabs_p3 {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: 'QuickSand', sans-serif;
+    letter-spacing: 1px;
+}
+
+.tabs_questions {
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-template-columns: 1.2fr 1.2fr 0.8fr; 
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px 15px;
+    padding: 15px;
+    grid-template-areas:
+        "Question Question questionstatus"
+        "CHOICEA CHOICEC questionstatus"
+        "CHOICEB CHOICED answer";
+}
+
+.CHOICEB {
+    grid-area: CHOICEB;
+}
+
+.CHOICEA {
+    grid-area: CHOICEA;
+}
+
+.CHOICEC {
+    grid-area: CHOICEC;
+}
+
+.CHOICED {
+    grid-area: CHOICED;
+}
+
+.Question {
+    grid-area: Question;
+}
+
+.questionstatus {
+    grid-area: questionstatus;
+}
+
+.answer {
+    grid-area: answer;
+}
+
+.tabs_question_qbutton,
+.tabs_question_nbutton {
+    padding: 8px 10px;
+    margin: 10px 15px 20px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #e9ecef52;
+    border: 1px solid #DEE2E6;
+    border-radius: 5px;
+    color: #292d3dff;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.questionstatus{
+    height: 100%;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.box_choices{
+    display: flex;
+    gap: 10px;
+    margin: 15px 0px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+}
+
+.EE_subject{
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid #e0e3e6;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.EE_subject:hover{
+    background-color: #f8f9fa;
+}
+
+.tab3_form{
+    margin: 30px 0px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    color: #505161ff;
+}
+
+.limit{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.choices{
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    width: 94.7%;
+}

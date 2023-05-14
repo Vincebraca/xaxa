@@ -1,0 +1,29 @@
+.cancel {
+    padding: 8px 16px;
+    font-size: 14px;
+    background-color: #ccc;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .cancel:hover {
+    background-color: #999;
+  }
+  
+  .agree {
+    padding: 8px 16px;
+    font-size: 14px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .agree:hover {
+    background-color: #45a049;
+  }
+  

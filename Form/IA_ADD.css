@@ -1,0 +1,43 @@
+.IAFormadd {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .IAFormadd p {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .IAFormadd div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .IAFormadd input,
+  .IAFormadd select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .IAFormadd .add {
+    padding: 8px 16px;
+    font-size: 14px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .IAFormadd .add:hover {
+    background-color: #45a049;
+  }

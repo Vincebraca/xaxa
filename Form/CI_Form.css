@@ -1,0 +1,96 @@
+.CI_Form_top {
+    display: flex;
+    align-items: center;
+    padding: 5px 0px;
+    gap: 10px;
+    color: rgba(80, 81, 97, 0.976);
+    font-family: 'QuickSand', sans-serif;
+    font-weight:800;
+    font-size:15px;
+    width: 250px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.CI_Form_top:hover{
+    color: rgba(80, 81, 97, 0.831);
+}
+
+.CI_Form_Title {
+    font-size: 34px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    border-bottom: 1px solid #E9ECEF;
+    padding-bottom: 20px;
+    color: #252a35ff;
+    line-height: 1.3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.CI_Form_subTitle{
+    font-size: 14px;
+    color: #697280ff;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+
+.CI_Form_container {
+    margin: 30px 0px;
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-template-columns: 0.9fr 1.2fr;
+    grid-template-rows: 1fr;
+    gap: 0px 10px;
+    grid-template-areas:
+        ". .";
+    align-items: flex-start;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e9ecef;
+    
+}
+
+.CI_Form_p1{
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: #252a35ff;
+}
+
+.CI_Form_p2{
+    font-size: 13px;
+    color: #697280ff;
+    font-family: 'Poppins', sans-serif;
+}
+
+.CI_Form_input{
+    width:70%;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: 1px solid #dee2e6;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.01) 0px 4px 12px;
+}
+
+.CI_Form_input:focus{
+    outline: none;
+}
+
+.CI_Form_Add_Job{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-family: 'QuickSand', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #292d3dff;
+    padding: 10px 0px;
+}
+
+.Form_Job{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
